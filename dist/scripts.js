@@ -10,7 +10,6 @@ let jpTextSpeed = 0;
 let smokeSpraySpeed = 0;
 let headSpeed = 0;
 
-// window.addEventListener('wheel', event => {
 window.addEventListener('scroll', event => {
     this.direction = this.oldScroll < this.scrollY ? true : false;
     if (this.direction !== this.oldDirection) {
@@ -32,7 +31,7 @@ window.addEventListener('scroll', event => {
             smokeSpraySpeed > limit ? limit : smokeSpraySpeed
         }px)`;
         spray.style.transform = `translateY(${
-            smokeSpraySpeed > limit * 2 ? limit * 2 : smokeSpraySpeed
+            smokeSpraySpeed > limit ? limit : smokeSpraySpeed
         }px)`;
         head.style.transform = `translateY(${
             headSpeed > limit ? limit : headSpeed

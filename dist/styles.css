@@ -152,7 +152,7 @@ footer {
     list-style: none;
 }
 
-.info > li:hover {
+.info > li.page-link:hover {
     background-color: #000;
 }
 

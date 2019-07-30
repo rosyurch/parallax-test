@@ -14,6 +14,10 @@
     font-family: 'basis33';
 }
 
+header {
+    height: 100vh;
+}
+
 header,
 .contact-hand {
     text-align: center;
@@ -57,7 +61,7 @@ header .ukr {
 
 .parallax .cont-smoke {
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 50px;
     z-index: 5;
 }

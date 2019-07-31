@@ -14,8 +14,20 @@
     font-family: 'basis33';
 }
 
-header {
+header,
+.header-contact {
     height: 100vh;
+    width: 95vw;
+}
+
+.header-contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ukr {
+    width: 340px;
 }
 
 header,
@@ -23,13 +35,15 @@ header,
     text-align: center;
 }
 
-header img.who-are {
-    position: relative;
-    top: calc(50%-150px / 2);
+.contact-hand > img {
+    width: 40vw;
+    min-width: 340px;
+    margin: auto;
 }
 
-header .ukr {
-    margin: 400px 0;
+header img.who-are {
+    position: relative;
+    top: calc(50% - 150px / 2);
 }
 
 .parallax {
@@ -69,7 +83,7 @@ header .ukr {
 .parallax .cont-spray {
     position: absolute;
     width: 120px;
-    top: 20px;
+    top: 0px;
     left: 110px;
 }
 
@@ -141,11 +155,13 @@ header .ukr {
     position: relative;
 }
 
-.poppies > p {
+.poppies .poem {
+    font-size: 12px;
     position: absolute;
-    bottom: 100px;
-    right: 450px;
-    width: 150px;
+    bottom: calc(300px - 17vh);
+    right: 22vw;
+    width: 8vw;
+    min-width: 5vw;
 }
 
 footer {
